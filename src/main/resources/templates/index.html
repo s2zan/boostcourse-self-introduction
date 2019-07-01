@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <title>Self-introduction</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<header include-html="/include/header.html"></header>
+
+<section>
+    <div>
+        <h1>반가워요</h1>
+        함께 웹개발 공부해요!!
+    </div>
+    <ul>
+        <li><button onclick="location.href='/aboutme'">자기소개</button></li>
+        <li><button onclick="location.href='/photo'">사진</button></li>
+    </ul>
+    <br>
+    <img class="map" alt="map" src="/image/map.png" />
+</section>
+
+<footer include-html="/include/footer.html"></footer>
+
+</body>
+<script type="text/javascript" src="/js/include.js"></script>
+<script>
+    includeHTML();
+</script>
+</html>
